@@ -1,0 +1,70 @@
+.left-part{
+  position: sticky;
+  top:75px;
+  flex:0.2;
+  height: fit-content;
+}
+
+.left-part-top{
+  background: white;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px #ccc;
+}
+
+.left-part-top .info{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.left-part-top .info .background{
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.left-part-top .info .avatar{
+  margin-top: -35px;
+}
+.left-part-top .info .description{
+  font-size: 12px;
+  color: rgb(124, 115, 115);
+}
+.left-part-top .numbers{
+  border-top: 1px solid rgba(128, 128, 128, 0.418);
+  padding: 10px 10px;
+}
+.left-part-top .numbers div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.left-part-top .numbers div p{
+  font-size: 15px;
+}
+.left-part-top .numbers div p:first-of-type{
+  color: gray;
+}
+.left-part-top .numbers div p:last-of-type{
+  color: #0a66c2;
+}
+.left-part-bottom {
+  background: white;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px #ccc;
+  padding: 10px;
+}
+.left-part-bottom h4{
+  margin-bottom: 10px;
+}
+.left-part-bottom div p{
+  color: gray;
+  margin-top: 5px;
+}
+.left-part-bottom div p span{
+  margin: 0 10px;
+}
+.left-part .avatar img{
+  width: 55px;
+}

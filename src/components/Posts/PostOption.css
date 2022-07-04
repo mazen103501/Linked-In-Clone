@@ -1,0 +1,18 @@
+.post-option{
+  display: flex;
+  align-items: center;
+  padding: 15px 10px;
+  transition: 0.25s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.post-option:hover{
+  background: rgba(204, 204, 204, 0.425);
+}
+.post-option svg{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.post-option p{
+  margin-left: 5px;
+}

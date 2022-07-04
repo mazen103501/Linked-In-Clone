@@ -1,0 +1,34 @@
+.post-input{
+  /* display: flex; */
+  background: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #ccc;
+  padding: 10px 20px 5px;
+}
+.post-input form{
+  display: flex;
+  
+}
+.post-input form img{
+  height: 48px;
+  cursor: pointer;
+}
+.post-input form input{
+  width: 100%;
+  margin-left: 10px;
+  border-radius: 100px;
+  outline: none;
+  border: 1px solid gray;
+  padding-left: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.post-input form input:hover{
+  background: rgb(228, 225, 225);
+}
+.post-input > div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

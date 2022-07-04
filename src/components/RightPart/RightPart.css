@@ -1,0 +1,25 @@
+.right-part{
+  flex: 0.2;
+  padding: 10px;
+  background: white;
+  height: fit-content;
+  border-radius: 20px;
+  position: sticky;
+  top: 80px;
+}
+.right-part img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: contain;
+}
+.right-part .single-trend{
+  display: flex;
+  margin-top: 15px;
+}
+.right-part .single-trend p{
+  font-size: 14px;
+  color: gray;
+  margin-top: 4px;
+}

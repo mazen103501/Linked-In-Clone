@@ -1,0 +1,5 @@
+.avatar img{
+  height: 55px;
+  border-radius: 50%;
+  border: 0.5px solid white;
+}

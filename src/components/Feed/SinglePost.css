@@ -1,0 +1,30 @@
+.single-post{
+  padding: 10px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px #ccc;
+  margin-top: 13px;
+}
+.single-post .single-post-top{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.single-post .single-post-top img{
+  height: 45px;
+  margin-right: 15px;
+}
+.single-post .single-post-top .info p{
+  font-size: 13px;
+  color: gray;
+  margin-top: 1px;
+}
+.single-post .body p{
+  overflow-wrap: anywhere;
+}
+.single-post .like{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  border-top: 1px solid rgba(128, 128, 128, 0.178);
+}

@@ -1,0 +1,10 @@
+.all-posts{
+  padding: 0 40px;
+  flex: 0.6;
+}
+.all-posts .post-input .avatar img{
+  width: 48px;
+}
+.all-posts .feed .avatar img{
+  width: 45px;
+}
